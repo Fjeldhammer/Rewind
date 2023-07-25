@@ -7,7 +7,7 @@ function getValues() {
     displayString(revString);
 }
 
-function reverseString(input) { // input = 'apple'
+function reverseString(input) {
 
     let revString = '';
 
