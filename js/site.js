@@ -9,21 +9,17 @@ function getValues() {
 
 function reverseString(input) { // input = 'apple'
 
-    let strArray = input.split(''); // strArray = ['a', 'p', 'p', 'l', 'e']
-    let reversedArray = [];
+    let revString = '';
 
-    for (let index = strArray.length - 1; index >= 0; index = index - 1) {
+    for (let index = input.length - 1; index >= 0; index = index - 1) {
 
-        let letter = strArray[index];
+        let letter = input[index];
 
-        reversedArray.push(letter);
-        
+        revString = revString + letter;
+
     }
 
-    let revString = reversedArray.join('');
-
     return revString;
-
 }
 
 function displayString(output) {
