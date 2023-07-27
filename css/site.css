@@ -1,3 +1,5 @@
+/* font-family: 'Marck Script', cursive; */
+
 :root {
     --wf-theme-core: var(--wf-blue-core);
     --wf-theme-100: var(--wf-blue-100);
@@ -27,6 +29,10 @@
 
     --wf-light-color: #deeefb;
     --wf-dark-color: #212121;
+    /* #61cac4 tealy*/
+    /* #ee1b58 panky*/
+    /* #7F4BA3 purcle*/
+    /* #F5DD18 goldy*/
 }
 
 /* #region Sticky Footer */
@@ -50,10 +56,27 @@ footer {
 /* #endregion Sticky Footer */
 
 .btn-primary {
-    --bs-btn-bg: var(--wf-theme-600);
-    --bs-btn-border-color: var(--wf-theme-600);
-    --bs-btn-hover-bg: var(--wf-theme-700);
-    --bs-btn-hover-border-color: var(--wf-theme-700);
+    color: #ee1b58;
+    background-color: #f5dd18;
+    border-color: #7F4BA3;
+    --bs-btn-hover-bg: #ee1b58;
+    --bs-btn-hover-border-color: #f5dd18;
+    --bs-btn-hover-color: white;
+}
+
+.borderRewind {
+    color: #ee1b58
+}
+
+#stringRewind {
+    color: #212121;
+    font-family: 'Marck Script', cursive;
+    font-weight: 900;
+    font-size: xx-large ;
+}
+
+.textRewind {
+    color: #7f4ba3
 }
 
 body {
@@ -63,22 +86,26 @@ body {
 
 .navbar,
 .footer {
-    background-color: var(--wf-theme-900);
+    background-color:#61cac4;
 }
 
 .footer {
     color: var(--wf-theme-200);
 }
 
+.navbar {
+    color: #212121
+}
+
 .socialicons {
     font-size: 2rem;
     padding-left: .5rem;
-    color: var(--wf-theme-300);
+    color: #7f4ba3;
     transition: color 0.2s;
 }
 
 .socialicons:hover {
-    color: var(--wf-theme-core);
+    color: #f5dd18;
 }
 
 .app-logo {
@@ -86,7 +113,7 @@ body {
 }
 
 .checklist i {
-    color: var(--wf-theme-core);
+    color: #7f4ba3;
     padding-right: .5rem;
 }
 
