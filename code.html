@@ -60,7 +60,8 @@
                             <a class="nav-link active" aria-current="page" href="/code.html">The Code</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://github.com/Fjeldhammer/a.Rewind">The Repo</a>
+                            <a class="nav-link" target="_blank" href="https://github.com/Fjeldhammer/a.Rewind">The
+                                Repo</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank" href="https://fjeldhammer.netlify.app/">About</a>
@@ -118,36 +119,38 @@
             <div class="col-12 col-lg-4">
                 <p class="lead">The Code is structured in three functions.</p>
                 <h4>getValues</h4>
-                <p>The function <strong>getValues</strong> retrieves the data entered into the 
-                    program at the user interface, appropriates it for use in the next function and 
-                    passes it forward. 
+                <p>The function <strong>getValues</strong> retrieves the data entered into the
+                    program at the user interface, appropriates it for use in the next function and
+                    passes it forward.
                 </p>
-                <p>It assigns this data value the name 'userString'. Then declares a variable 
-                    'revString' which will pass the userString data to the next function. 
-                    And then sets up the pass with 'reverseString(userString)' for moving the data value 
+                <p>It assigns this data value the name 'userString'. Then declares a variable
+                    'revString' which will pass the userString data to the next function.
+                    And then sets up the pass with 'reverseString(userString)' for moving the data value
                     to the next function.
                 </p>
                 <p>
-                    This function will later receive the output from the second function and prep this new 
+                    This function will later receive the output from the second function and prep this new
                     to be passed to the third function.
                 </p>
                 <h4>reverseString</h4>
-                <p>The function <strong>reverseString</strong> calls the data value entered in the first 
-                    function (input), reverses the order of the characters in the userString and passes 
+                <p>The function <strong>reverseString</strong> calls the data value entered in the first
+                    function (input), and declares the variable 'revString'. Using a for loop, it iterates each
+                    character
+                    from the userString (array) through the function in order to reverse the order of the characters in
+                    the userString and passes
                     it to the next function to display the results.
                 </p>
-                <p> and declares the variable 'revString'. Using a for loop, it iterates each character 
-                    from the userString (array) through the function in order to  
+                <p>
 
                 </p>
-                
+
                 <h4>displayString</h4>
-                <p>The function <strong>getValues</strong> retrieves the data entered into the 
-                    program at the user interface. It assigns this data value the name 'userString'. 
-                    And then passes the data value to the next function.                    
+                <p>The function <strong>displayString</strong> retrieves the output from the reverseString function
+                    (revString results)
+                    and packages it in the document.getElementById().textContent alert.
                 </p>
                 <p>
-                    and passes it to the back html page to display in the program
+                    Then it is passed to the html page (view) to display to the user in the previously hidden alertbox.
                 </p>
             </div>
         </div>
